@@ -1,0 +1,9 @@
+package singleSimplePattern;
+
+/**
+ * ¿¡∫∫ Ω
+ */
+public class LazySingleton {
+
+	private static LazySingleton instance=null;
+}

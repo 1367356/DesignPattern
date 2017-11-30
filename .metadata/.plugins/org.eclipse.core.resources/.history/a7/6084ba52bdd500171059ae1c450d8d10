@@ -1,0 +1,5 @@
+package prototypePattern.register;
+
+public interface Prototype {
+
+}

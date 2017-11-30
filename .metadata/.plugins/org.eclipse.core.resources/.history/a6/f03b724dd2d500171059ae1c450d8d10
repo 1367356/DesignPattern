@@ -1,0 +1,10 @@
+package defaultAdapter;
+
+/**
+ * 缺省适配器，也就是子类（抽象类）实现一部分方法
+ * @author admin
+ *
+ */
+public class SubDefaultAdapter extends Sup{
+
+}

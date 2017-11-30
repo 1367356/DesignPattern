@@ -1,0 +1,16 @@
+package prototypePattern.register;
+
+public class Client {
+
+	public static void main(String[] args) {
+		try {
+			Prototype p1=new ConcretePrototype1();
+			PrototypeManager.setPrototype("p1", p1);
+			//获取原型来创建对象
+			Prototype p3=PrototypeManager.getPrototype("p1").clonePrototype();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

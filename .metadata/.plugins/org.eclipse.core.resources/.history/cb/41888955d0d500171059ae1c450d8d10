@@ -1,0 +1,9 @@
+package adaptorPattern;
+
+public class CopyOfAdaptee {
+
+	public void sampleOperation1() {
+		// TODO Auto-generated method stub
+		
+	}
+}

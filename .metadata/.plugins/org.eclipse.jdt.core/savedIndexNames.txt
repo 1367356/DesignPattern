@@ -1,20 +1,3 @@
 INDEX VERSION 1.126+D:\github\localfile\DesignPattern\.metadata\.plugins\org.eclipse.jdt.core
-1496652131.index
-2050661114.index
-601298011.index
-2671713652.index
-456323464.index
-4211726397.index
-2576367939.index
-841523942.index
-2203361519.index
-3010953562.index
-1331522088.index
-2852385442.index
-3492073309.index
-4011518750.index
-2030305820.index
-4230046242.index
+769801603.index
 2225460032.index
-721518719.index
-2420760581.index

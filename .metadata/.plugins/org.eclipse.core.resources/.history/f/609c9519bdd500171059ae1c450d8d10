@@ -1,0 +1,6 @@
+package prototypePattern.register;
+
+public class Prototype {
+
+	public Prototype clonePrototype();
+}

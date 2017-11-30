@@ -1,0 +1,10 @@
+package singleSimplePattern;
+
+/**
+ * 使用枚举类来实现单例模式，枚举类中只有一个元素
+ * @author admin
+ *
+ */
+public enum Singleton3 {
+
+}

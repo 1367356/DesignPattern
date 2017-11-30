@@ -1,0 +1,10 @@
+package singleSimplePattern;
+
+/**
+ * 双重加锁的懒汉设计模式
+ * @author admin
+ *
+ */
+public class Singleton {
+
+}

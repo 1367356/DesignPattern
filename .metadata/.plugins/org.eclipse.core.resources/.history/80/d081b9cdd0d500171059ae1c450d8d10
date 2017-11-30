@@ -1,0 +1,5 @@
+package adaptorPattern.objectAdapter;
+
+public class Adapter {
+
+}

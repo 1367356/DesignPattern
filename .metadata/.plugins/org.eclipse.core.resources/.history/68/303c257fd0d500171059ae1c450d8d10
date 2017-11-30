@@ -1,0 +1,8 @@
+package adaptorPattern.objectAdapter;
+
+public interface Target {
+
+	/**
+	 * 这是源类Adaptee也有的方法
+	 */
+}
