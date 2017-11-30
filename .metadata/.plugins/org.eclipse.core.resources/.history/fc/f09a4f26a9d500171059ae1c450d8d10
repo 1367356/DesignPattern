@@ -1,0 +1,21 @@
+package builderPattern;
+
+public class ConcreteBuilder implements Builder{
+
+	Product product=new Product();
+	public void buildPart1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void buildPart2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Product retrieveResult() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,20 @@
+package builderPattern.usingSecne;
+
+public class GoodbyeBuilder extends Builder{
+
+	public GoodbyeBuilder() {
+		// TODO Auto-generated constructor stub
+		msg=new 
+	}
+	
+	public void buildSubject() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void buildBody() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

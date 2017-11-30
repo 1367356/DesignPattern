@@ -1,0 +1,15 @@
+package builderPattern.usingSecne;
+
+public class WelcomeBuilder extends Builder{
+
+	public void buildSubject() {
+		// TODO Auto-generated method stub
+		msg=new WelcomeMessage();
+	}
+
+	public void buildBody() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
