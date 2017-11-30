@@ -1,0 +1,17 @@
+package abstractFactoryPattern;
+
+public class ClientAbstractFactroy {
+
+	public static void main(String[] args) {
+		/**
+		 * 创建装机工程师对象
+		 */
+		ComputerEngineerAbstractFactory ceaf=new ComputerEngineerAbstractFactory();
+		//客户选择并创建需要使用的 产品对象
+		AbstractFactory af=new IntelFactory();
+		
+		//告诉装机工程师自己选择的产品，让装机工程师组装电脑
+		ceaf.makeComputer(af);
+	
+	}
+}

@@ -1,0 +1,18 @@
+package abstractFactoryPattern;
+
+public class AmdMainBoard implements MainBoard{
+
+	/**
+	 * cpu²å²ÛµÄ¿×Êý
+	 */
+	private int cpuHoles=0;
+	public AmdMainBoard(int cpuHoles) {
+		// TODO Auto-generated constructor stub
+		this.cpuHoles=cpuHoles;
+	}
+	public void installCPU() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

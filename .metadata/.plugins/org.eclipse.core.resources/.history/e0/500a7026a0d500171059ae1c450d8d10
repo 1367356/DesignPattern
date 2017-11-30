@@ -1,0 +1,10 @@
+package abstractFactoryPattern;
+
+public class ComputerEngineerAbstractFactory {
+
+	/**
+	 * 抽象工厂模式的需要的Cpu和主板
+	 */
+	private Cpu cpu;
+	private MainBoard mainBoard;
+}
