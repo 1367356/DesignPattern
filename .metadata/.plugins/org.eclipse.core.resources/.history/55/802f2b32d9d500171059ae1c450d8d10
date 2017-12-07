@@ -1,0 +1,39 @@
+package compositePattern;
+
+/**
+ * 组合模式：将对象组合成树形结构以表示‘部分-整体’的层次结构
+ * @author admin
+ *
+ */
+public class ComponentDemo {
+	
+	public abstract class Component{
+		String name;
+		public abstract void add(Component c);
+		public abstract void remove(Component c);
+		public abstract void eachChild();
+	}
+	
+	//组合部件类
+	public class Leaf extends Component{
+
+		//叶子节点不具备添加的能力，所以不实现
+		public void add(Component c) {
+			// TODO Auto-generated method stub
+			System.out.println("");
+		}
+
+		//叶子节点不具备添加的能力，必然也不能删除
+		public void remove(Component c) {
+			// TODO Auto-generated method stub
+			System.out.println("");
+		}
+
+		//叶子节点没有子节点，所以显示自己的执行结果
+		public void eachChild() {
+			// TODO Auto-generated method stub
+			System.out.println(name+"执行了");
+		}
+		
+	}
+}

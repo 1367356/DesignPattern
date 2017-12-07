@@ -1,0 +1,10 @@
+package compositePattern;
+
+/**
+ * 组合模式表达部分整体的关系
+ * @author admin
+ *
+ */
+public class ComponentDemo {
+
+}
