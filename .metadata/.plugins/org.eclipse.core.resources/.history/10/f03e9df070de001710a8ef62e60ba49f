@@ -1,0 +1,9 @@
+package interpreterPatter;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Context {
+
+	private Map<Variable, Boolean> map=new HashMap<K, V>();
+}

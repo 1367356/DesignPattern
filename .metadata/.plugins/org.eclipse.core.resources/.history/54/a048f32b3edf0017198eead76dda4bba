@@ -1,0 +1,5 @@
+package templateMethodPattern.concreteExample;
+
+public class Client {
+
+}

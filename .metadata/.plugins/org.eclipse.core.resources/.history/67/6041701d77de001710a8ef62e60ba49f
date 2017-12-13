@@ -1,0 +1,31 @@
+package iteratorPattern;
+
+public class ConcreteAggregate extends Aggregate{
+
+	private Object[] objArray=null;
+	
+	/**
+	 * 构造方法，传入聚合对象的 具体内容
+	 */
+	public ConcreteAggregate(Object[] objArray) {
+		// TODO Auto-generated constructor stub
+		this.objArray=objArray;
+	}
+	@Override
+	public Iterator createIterator() {
+		// TODO Auto-generated method stub
+		return new ConcreteIterator(this);
+	}
+	/**
+	 * 取值方法：向外界提供聚集元素
+	 */
+	public Object getElement(int index){
+		if(index<objArray.length){
+			return objArray[index];
+		}
+		else{
+			return null;
+		}
+	}
+
+}

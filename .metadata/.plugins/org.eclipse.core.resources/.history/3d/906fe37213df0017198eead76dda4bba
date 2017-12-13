@@ -1,0 +1,14 @@
+package statePattern;
+
+/**
+ * 环境角色类
+ * @author admin
+ *
+ */
+public class Context {
+
+	/**
+	 * 持有一个state类型的对象实例
+	 */
+	private State state;
+}

@@ -82,7 +82,11 @@ public class ComponentDemo {
 		Composite compositeRight=demo.new Composite();
 		compositeRight.name="右节点";
 		Leaf leaf1=demo.new Leaf();
-		
+		leaf1.name="右-子节点1";
+		Leaf leaf2=demo.new Leaf();
+		leaf2.name="右-子节点2";
+		compositeRight.add(leaf1);
+		compositeRight.add(leaf2);
 	}
 	
 }

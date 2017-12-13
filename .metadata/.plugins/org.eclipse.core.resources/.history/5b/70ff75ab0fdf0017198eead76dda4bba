@@ -1,0 +1,17 @@
+package observerPattern.pullModel;
+
+/**
+ * 拉模型的具体观察者类
+ * @author admin
+ *
+ */
+public class ConcreteObserver implements Observer{
+
+	//观察者的状态
+	private String observerState;
+	public void update(Subject subject) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

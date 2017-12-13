@@ -1,5 +1,0 @@
-package prototypePattern.register;
-
-public class ConcretePrototype1 implements Prototype{
-
-}

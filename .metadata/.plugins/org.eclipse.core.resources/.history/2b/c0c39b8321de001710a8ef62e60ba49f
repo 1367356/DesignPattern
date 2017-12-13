@@ -1,0 +1,45 @@
+package compositePattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PayDemo {
+
+	public abstract class Market{
+		String name;
+		
+		public abstract void add(Market m);
+		public abstract void remove(Market m);
+		public abstract void payByCard();
+	}
+	
+	//分店，下面可以有加盟店
+	public class MarketBrance extends Market{
+
+		//加盟店列表
+		List<Market> list=new ArrayList<PayDemo.Market>();
+		
+		public MarketBrance(String s) {
+			// TODO Auto-generated constructor stub
+			this.name=s;
+		}
+		@Override
+		public void add(Market m) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void remove(Market m) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void payByCard() {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	}
+}

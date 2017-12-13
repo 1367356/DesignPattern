@@ -1,0 +1,5 @@
+package interpreterPatter;
+
+public abstract class Expression {
+
+}

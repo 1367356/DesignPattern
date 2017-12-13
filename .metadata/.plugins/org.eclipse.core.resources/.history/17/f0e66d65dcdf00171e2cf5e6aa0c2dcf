@@ -1,0 +1,9 @@
+package visitorPattern.nodeVisitor;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ObjectStructure {
+
+	private List<Node> nodes=new ArrayList<Node>();
+}

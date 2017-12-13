@@ -1,0 +1,22 @@
+package statePattern.voteSystem;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 环境类
+ * @author admin
+ *
+ */
+public class VoteManager {
+
+	//持有状态处理对象
+	private VoteState state=null;
+	//记录用户投票的结果，Map<String,String>对应Map<用户名称，投票的选项>
+	private Map<String, String> mapVote=new HashMap<String, String>();
+	public Object getMapVote() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

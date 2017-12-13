@@ -1,0 +1,12 @@
+package mediatorPattern.directConnect;
+
+public class Client {
+
+	public static void main(String[] args) {
+		AbstractColleage collA=new ColleageA();
+		AbstractColleage collB=new ColleagueB();
+		
+		System.out.println("---------…Ë÷√A”∞œÏB==================");
+		collA.setNumber(120, collB);
+	}
+}

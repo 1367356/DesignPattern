@@ -1,0 +1,17 @@
+package observerPattern.pullModel;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * 拉模型的抽象主题类
+ * @author admin
+ *
+ */
+public abstract class Subject {
+
+	/**
+	 * 用来保存组成的 观察者对象
+	 */
+	private List<Observer> list=new ArrayList<Observer>();
+}

@@ -1,0 +1,23 @@
+package mementoPattern.multiCheckPoint;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Originator {
+
+	private List<String> states;
+	
+	//检查点指数
+	private int index;
+	/**
+	 * 构造函数
+	 */
+	public Originator() {
+		// TODO Auto-generated constructor stub
+		states=new ArrayList<String>();
+		index=0;
+	}
+	public Memento createMemento(){
+		return new Memento(states,index);
+	}
+}

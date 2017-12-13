@@ -1,0 +1,25 @@
+package commandPattern.concreteExample;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MacroAudioCommand implements MacroCommand{
+
+	
+	private List<Command> commandList=new ArrayList<Command>();
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void add(Command cmd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void remove(Command cmd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

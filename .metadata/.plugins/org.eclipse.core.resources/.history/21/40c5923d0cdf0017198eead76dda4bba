@@ -1,0 +1,6 @@
+package observerPattern;
+
+public interface Observe {
+
+	public void update(String newState);
+}

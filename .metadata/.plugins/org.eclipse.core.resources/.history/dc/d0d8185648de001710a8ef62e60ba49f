@@ -1,0 +1,9 @@
+package flyWeight;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FlyWeightFactory {
+
+	private Map<Character, FlyWeight> files=new HashMap<Character, FlyWeight>();
+}

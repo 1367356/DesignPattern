@@ -1,5 +1,0 @@
-package prototypePattern;
-
-public class ConcretePrototype1 implements Prototype{
-
-}

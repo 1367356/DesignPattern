@@ -1,0 +1,11 @@
+package mementoPattern.whiteBoxImpl;
+
+/**
+ * 备忘录的白箱实现
+ * 发起人
+ * @author admin
+ *
+ */
+public class Originator {
+
+}

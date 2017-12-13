@@ -1,0 +1,5 @@
+package flyWeight;
+
+public class ConcreteFlyWeight {
+
+}

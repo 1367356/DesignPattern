@@ -1,0 +1,15 @@
+package commandPattern;
+
+/**
+ * 具体命令角色
+ */
+public class ConcreteCommand implements Command{
+
+	//持有相应的 接收者对象
+	private Receiver receiver;
+	public void execute() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

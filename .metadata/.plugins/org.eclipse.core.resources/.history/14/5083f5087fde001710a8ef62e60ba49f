@@ -1,0 +1,5 @@
+package mediatorPattern.mediatorConnect;
+
+public class ColleagueB {
+
+}

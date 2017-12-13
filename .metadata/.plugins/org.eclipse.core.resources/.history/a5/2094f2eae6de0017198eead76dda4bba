@@ -1,0 +1,18 @@
+package mementoPattern.multiCheckPoint;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Caretaker {
+
+	private Originator o;
+	private List<Memento> mementos=new ArrayList<Memento>();
+	private int current;
+	
+	/**
+	 * ¹¹Ôìº¯Êý
+	 */
+	public Caretaker(Originator O){
+		this.o=o;
+	}
+}

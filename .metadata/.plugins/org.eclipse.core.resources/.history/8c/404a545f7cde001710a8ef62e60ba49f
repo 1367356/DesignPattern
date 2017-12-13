@@ -1,0 +1,5 @@
+package iteratorPattern.blackBoxAndInnerIterator;
+
+public abstract class Aggregate {
+
+}

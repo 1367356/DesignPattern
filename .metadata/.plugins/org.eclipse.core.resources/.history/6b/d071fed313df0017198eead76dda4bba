@@ -1,0 +1,5 @@
+package statePattern;
+
+public class ConcreteStateA implements State{
+
+}

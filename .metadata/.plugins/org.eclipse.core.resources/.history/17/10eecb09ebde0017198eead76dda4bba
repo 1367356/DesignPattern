@@ -1,0 +1,13 @@
+package mementoPattern.selfDescHistoryPattern;
+
+public class Originator {
+
+	private String state;
+	/**
+	 * 改变状态
+	 */
+	public void changeState(String state){
+		this.state=state;
+		System.out.println("将状态改变为："+state);
+	}
+}

@@ -1,0 +1,11 @@
+package mementoPattern.multiCheckPoint;
+
+import java.util.List;
+
+public class Memento {
+
+	public Memento(List<String> states, int index) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

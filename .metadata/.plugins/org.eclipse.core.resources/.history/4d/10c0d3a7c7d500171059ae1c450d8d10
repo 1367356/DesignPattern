@@ -1,5 +1,0 @@
-package singleSimplePattern;
-
-public class LazySingleton {
-
-}

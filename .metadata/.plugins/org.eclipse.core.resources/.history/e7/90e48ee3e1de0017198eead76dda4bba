@@ -1,0 +1,5 @@
+package mementoPattern.whiteBoxImpl;
+
+public class Memento {
+
+}

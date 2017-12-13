@@ -1,8 +1,0 @@
-package defaultAdapter;
-
-public interface SuperDefaultAdapter {
-	
-	public void a();
-	public int b();
-	public String c();
-}

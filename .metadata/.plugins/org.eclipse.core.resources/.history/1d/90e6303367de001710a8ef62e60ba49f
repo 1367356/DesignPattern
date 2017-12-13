@@ -1,0 +1,19 @@
+package commandPattern.concreteExample;
+
+/**
+ * 客户端
+ */
+public class Client {
+
+	//创建接收者对象
+	AudioPlayer audioPlayer=new AudioPlayer();
+	
+	//创建命令对象
+	Command playCommand=new PlayCommand(audioPlayer);
+	Command rewindCommand=new RewindCommand(audioPlayer);
+	Command stopCommand=new StopCommand(audioPlayer);
+	
+	//创建请求者对象
+	Keypad keypad=new Keypad();
+	keyp
+}

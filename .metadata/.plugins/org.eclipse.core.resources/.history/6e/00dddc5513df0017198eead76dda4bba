@@ -1,0 +1,13 @@
+package statePattern;
+
+/**
+ * 环境角色类
+ * @author admin
+ *
+ */
+public class Context {
+
+	/**
+	 * 
+	 */
+}

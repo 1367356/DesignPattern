@@ -1,0 +1,9 @@
+package strategyPattern.concreteExample;
+
+/**
+ * ³éÏóÕÛ¿ÛÀà
+ */
+public interface MemberStrategy {
+
+	public double calcPrice(double booksPrice);
+}

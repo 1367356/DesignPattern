@@ -1,0 +1,10 @@
+package decoratorPattern;
+
+public class ConcreteComponent implements Component{
+
+	public void sampleOperation() {
+		// TODO Auto-generated method stub
+		System.out.println("ConcreteComponent");
+	}
+
+}

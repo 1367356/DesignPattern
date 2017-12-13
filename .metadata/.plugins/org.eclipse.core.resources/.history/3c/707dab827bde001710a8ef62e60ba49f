@@ -1,0 +1,24 @@
+package iteratorPattern.blackBoxAndInnerIterator;
+
+public class ConcreteAggregate extends Aggregate{
+
+	private Object[] objArray=null;
+	/**
+	 * 构造方法：传入聚集集合的具体内容
+	 */
+	public ConcreteAggregate(Object[] objArray) {
+		// TODO Auto-generated constructor stub
+		this.objArray=objArray;
+	}
+	public Iterator createIterator() {
+		// TODO Auto-generated method stub
+		return new ConcreteIterator(); //使用内部类，不用将ConcreteAggregate对象暴露出去了
+	}
+	/**
+	 * 内部成员类，具体迭代子类
+	 */
+	private class ConcreteIterator implements Iterator{
+		
+	}
+	
+}

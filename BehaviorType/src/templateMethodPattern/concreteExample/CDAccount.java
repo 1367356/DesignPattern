@@ -1,0 +1,17 @@
+package templateMethodPattern.concreteExample;
+
+public class CDAccount extends Account{
+
+	@Override
+	public String doCalculateAccountType() {
+		// TODO Auto-generated method stub
+		return "Certificate of Deposite";
+	}
+
+	@Override
+	public double doCalculateInterestRate() {
+		// TODO Auto-generated method stub
+		return 0.06;
+	}
+
+}

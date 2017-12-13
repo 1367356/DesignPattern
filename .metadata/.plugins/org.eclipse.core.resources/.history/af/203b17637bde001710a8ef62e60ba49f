@@ -1,0 +1,18 @@
+package iteratorPattern.blackBoxAndInnerIterator;
+
+public class ConcreteAggregate extends Aggregate{
+
+	private Object[] objArray=null;
+	/**
+	 * 构造方法：传入聚集集合的具体内容
+	 */
+	public ConcreteAggregate(Object[] objArray) {
+		// TODO Auto-generated constructor stub
+		this.objArray=objArray;
+	}
+	public Iterator createIterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

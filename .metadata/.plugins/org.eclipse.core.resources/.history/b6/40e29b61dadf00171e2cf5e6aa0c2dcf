@@ -1,0 +1,9 @@
+package visitorPattern.nodeVisitor;
+
+public interface Visitor {
+
+	/**
+	 * 对应于NodeA的访问操作
+	 */
+	public void visit(NodeA node);
+}

@@ -1,0 +1,6 @@
+package observerPattern;
+
+public class ConcreteSubject extends Subject{
+
+	private String state;
+}

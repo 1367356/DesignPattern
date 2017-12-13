@@ -1,0 +1,5 @@
+package iteratorPattern;
+
+public class ConcreteAggregate {
+
+}

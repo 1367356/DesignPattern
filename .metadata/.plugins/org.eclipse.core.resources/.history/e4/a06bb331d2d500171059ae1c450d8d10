@@ -1,5 +1,0 @@
-package defaultAdapter;
-
-public interface SuperDefaultAdapter {
-
-}

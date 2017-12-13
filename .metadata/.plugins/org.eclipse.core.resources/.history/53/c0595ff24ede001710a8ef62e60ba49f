@@ -1,0 +1,12 @@
+package chainOfResposibilityPattern;
+
+/**
+ * 抽象处理者对象
+ */
+public class Handler {
+
+	/**
+	 * 持有后继的责任对象
+	 */
+	protected Handler successor;
+}

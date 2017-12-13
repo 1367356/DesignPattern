@@ -1,5 +1,0 @@
-package singleSimplePattern;
-
-public enum Singleton4 {
-
-}

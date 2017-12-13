@@ -1,0 +1,5 @@
+package facadePattern.selectExposeMethod;
+
+public class ModuleA {
+
+}

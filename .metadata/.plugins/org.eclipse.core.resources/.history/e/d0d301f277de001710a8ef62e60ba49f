@@ -1,0 +1,15 @@
+package iteratorPattern;
+
+public class ConcreteIterator implements Iterator {
+
+	//持有被迭代的具体的聚合对象
+	private ConcreteAggregate agg;
+	//内部索引，记录当前迭代到的索引位置
+	private int index=0;
+	//记录当前聚集对象的大小
+	private int size=0;
+	public ConcreteIterator(ConcreteAggregate concreteAggregate) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

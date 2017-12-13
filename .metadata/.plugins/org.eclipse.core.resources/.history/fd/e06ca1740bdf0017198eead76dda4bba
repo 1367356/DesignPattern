@@ -1,0 +1,12 @@
+package observerPattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public abstract class Subject {
+
+	/**
+	 * 用来保存注册的观察者对象
+	 */
+	private List<Observe> list=new ArrayList<Observe>();
+}

@@ -1,0 +1,16 @@
+package facadePattern.selectExposeMethod;
+
+public class ModuleB {
+
+    /** 
+3.     * 提供给子系统外部使用的方法 
+4.     */  
+5.    public void b1(){};  
+6.      
+7.    /** 
+8.     * 子系统内部模块之间相互调用时使用的方法 
+9.     */  
+10.    private void b2(){};  
+11.    private void b3(){};  
+
+}

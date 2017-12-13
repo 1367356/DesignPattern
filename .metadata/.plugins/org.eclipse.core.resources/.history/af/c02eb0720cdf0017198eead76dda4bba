@@ -1,0 +1,12 @@
+package observerPattern;
+
+public class ConcreteObserver implements Observe{
+
+	//¹Û²ìÕß×´Ì¬
+	private String observerState;
+	public void update(String newState) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

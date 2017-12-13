@@ -1,0 +1,16 @@
+package visitorPattern.nodeVisitor;
+
+public class NodeA extends Node{
+
+	public void operationA() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String accept(Visitor visitor) {
+		// TODO Auto-generated method stub
+		return "NodeA";
+	}
+
+}

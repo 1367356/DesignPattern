@@ -1,0 +1,14 @@
+package strategyPattern.concreteExample;
+
+public class Client {
+
+	public static void main(String[] args) {
+		//选择并创建需要使用的策略对象
+		MemberStrategy strategy=new AdvancedMemberStrategy();
+		//创建环境
+		Price price=new Price(strategy);
+		//计算价格
+		double quote=price.quote(200);
+		System.out.println("最终的图书价格为："+quote);
+	}
+}

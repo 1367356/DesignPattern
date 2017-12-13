@@ -1,0 +1,11 @@
+package chainOfResposibilityPattern.concreteExample;
+
+public class ProjectManager extends Handler{
+
+	public String handlerFeeRequest(String user, double fee) {
+		// TODO Auto-generated method stub
+		String str="";
+		return null;
+	}
+
+}

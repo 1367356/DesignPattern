@@ -1,9 +1,0 @@
-package builderPattern.usingSecne;
-
-public class GoodbyeMessage {
-
-	public GoodbyeMessage() {
-		// TODO Auto-generated constructor stub
-		System.out.println("goodbye");
-	}
-}

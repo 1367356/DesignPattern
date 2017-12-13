@@ -1,0 +1,5 @@
+package chainOfResposibilityPattern.concreteExample;
+
+public class DeptManager {
+
+}

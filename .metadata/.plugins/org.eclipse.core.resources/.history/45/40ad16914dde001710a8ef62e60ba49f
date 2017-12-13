@@ -1,0 +1,17 @@
+package proxyPattern;
+
+/**
+ * 代理对象
+ * @author admin
+ *
+ */
+public class ProxyObject extends AbstractObject{
+
+	RealObject realObject=new RealObject();
+	@Override
+	public void operation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

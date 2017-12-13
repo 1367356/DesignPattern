@@ -1,0 +1,5 @@
+package chainOfResposibilityPattern;
+
+public class Client {
+
+}

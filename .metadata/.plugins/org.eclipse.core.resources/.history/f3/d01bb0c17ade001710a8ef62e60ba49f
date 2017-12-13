@@ -1,0 +1,5 @@
+package iteratorPattern.blackBoxAndInnerIterator;
+
+public class ConcreteAggregate {
+
+}

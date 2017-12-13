@@ -1,0 +1,9 @@
+package mediatorPattern.directConnect;
+
+public abstract class AbstractColleage {
+
+	protected int number;
+	public int getNumber(){
+		return number;
+	}
+}

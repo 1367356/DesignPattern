@@ -1,5 +1,0 @@
-package prototypePattern;
-
-public interface Prototype {
-
-}

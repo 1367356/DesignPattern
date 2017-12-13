@@ -1,8 +1,0 @@
-package builderPattern.usingSecne;
-
-public abstract class Builder {
-
-	protected AutoMessage msg;
-	//标题零件的建造方法
-	public 
-}

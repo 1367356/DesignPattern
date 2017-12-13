@@ -1,0 +1,11 @@
+package decoratorPattern.concreteExample;
+
+public class Change implements TheGreatestSage{
+
+	private TheGreatestSage sage;
+	public void move(TheGreatestSage sage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

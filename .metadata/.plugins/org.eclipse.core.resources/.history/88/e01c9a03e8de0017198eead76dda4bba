@@ -1,0 +1,13 @@
+package mementoPattern.multiCheckPoint;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Originator o=new Originator();
+		Caretaker c=new Caretaker(o);
+		
+		//¸Ä±ä×´Ì¬
+		o.setState("state 0");
+		
+	}
+}

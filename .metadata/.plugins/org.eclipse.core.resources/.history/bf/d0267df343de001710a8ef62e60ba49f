@@ -1,0 +1,5 @@
+package decoratorPattern.concreteExample;
+
+public interface TheGreatestSage {
+
+}

@@ -1,0 +1,9 @@
+package commandPattern;
+
+public interface Command {
+
+	/**
+	 * Ö´ÐÐ·½·¨
+	 */
+	void execute();
+}

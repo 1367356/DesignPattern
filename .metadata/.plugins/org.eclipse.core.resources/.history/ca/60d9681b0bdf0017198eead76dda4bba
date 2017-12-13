@@ -1,0 +1,6 @@
+package observerPattern;
+
+public class Observe {
+
+	public void update();
+}

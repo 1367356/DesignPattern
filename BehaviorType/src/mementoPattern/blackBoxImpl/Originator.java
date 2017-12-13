@@ -1,0 +1,47 @@
+package mementoPattern.blackBoxImpl;
+
+public class Originator {
+
+	private String state;
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+		System.out.println("赋值状态："+state);
+	}
+	/*
+	 * 工厂方法，返回一个新的备忘录对象
+	 */
+	public MementoIF createMemento(){
+		return new Memento(state);
+	}
+	
+
+	/**
+	 * 工厂方法：返还一个新的备忘录对象
+	 */
+	public void restoreMemento(MementoIF memento){
+		this.setState(((Memento)memento).getstate());
+	}
+	
+	private class Memento implements MementoIF{
+
+		private String state;
+		private Memento(String state) {
+			// TODO Auto-generated constructor stub
+			this.state=state;
+		}
+		private String getstate() {
+			// TODO Auto-generated method stub
+			return state;
+		}
+		private void setState(String state){
+			this.state=state;
+		}
+		
+	}
+	
+}

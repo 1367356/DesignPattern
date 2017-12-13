@@ -1,0 +1,12 @@
+package iteratorPattern.blackBoxAndInnerIterator;
+
+public class ConcreteAggregate extends Aggregate{
+
+	private Object[] objArray=null;
+	@Override
+	public Iterator createIterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

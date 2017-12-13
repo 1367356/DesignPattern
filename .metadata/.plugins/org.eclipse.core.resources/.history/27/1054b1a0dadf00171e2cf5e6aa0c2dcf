@@ -1,0 +1,10 @@
+package visitorPattern.nodeVisitor;
+
+public class NodeA {
+
+	public char[] operationA() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

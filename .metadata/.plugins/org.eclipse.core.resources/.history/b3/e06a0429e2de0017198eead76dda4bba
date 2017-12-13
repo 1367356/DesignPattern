@@ -1,0 +1,15 @@
+package mementoPattern.whiteBoxImpl;
+
+public class Memento {
+
+	private String state;
+	public Memento(String state) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getState() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

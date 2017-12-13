@@ -1,0 +1,5 @@
+package mediatorPattern.directConnect;
+
+public class AbstractColleage {
+
+}

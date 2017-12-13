@@ -1,0 +1,11 @@
+package flyWeight;
+
+public class ConcreteFlyWeight implements FlyWeight{
+
+	private Character intrinsicState=null;
+	public void operation(String state) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

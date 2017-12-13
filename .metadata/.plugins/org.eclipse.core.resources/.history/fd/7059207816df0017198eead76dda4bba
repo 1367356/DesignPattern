@@ -1,0 +1,10 @@
+package statePattern.voteSystem;
+
+public class VoteManager {
+
+	public Object getMapVote() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

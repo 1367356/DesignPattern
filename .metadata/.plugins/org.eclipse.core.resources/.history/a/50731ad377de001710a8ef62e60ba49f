@@ -1,0 +1,9 @@
+package iteratorPattern;
+
+public class ConcreteIterator implements Iterator {
+
+	public ConcreteIterator(ConcreteAggregate concreteAggregate) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

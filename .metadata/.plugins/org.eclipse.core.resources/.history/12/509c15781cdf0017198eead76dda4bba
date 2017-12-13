@@ -1,0 +1,5 @@
+package strategyPattern.concreteExample;
+
+public class PrimaryMemberStrategy {
+
+}

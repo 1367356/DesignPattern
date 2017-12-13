@@ -1,6 +1,0 @@
-package adaptorPattern;
-
-public class Adaptee {
-
-	public void sampleOperarion1(){};
-}

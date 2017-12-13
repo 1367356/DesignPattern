@@ -1,0 +1,5 @@
+package statePattern.voteSystem;
+
+public class RepeatVoteState {
+
+}

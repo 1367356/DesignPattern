@@ -1,0 +1,8 @@
+package chainOfResposibilityPattern.concreteExample;
+
+public class Client {
+
+	//想要组装责任链
+	Handler h1=new GenerateManager();
+	Handler h2=new DeptManager();
+}

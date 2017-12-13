@@ -1,0 +1,5 @@
+package templateMethodPattern;
+
+public abstract class AbstractTemplate {
+
+}

@@ -1,0 +1,10 @@
+package flyWeight;
+
+/**
+ * ÏíÔªÄ£Ê½
+ * @author admin
+ *
+ */
+public interface FlyWeight {
+
+}
