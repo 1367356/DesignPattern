@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="iteratorPattern.blackBoxAndInnerIterator.Aggregate"/>
-<fullyQualifiedTypeName name="iteratorPattern.blackBoxAndInnerIterator.ConcreteAggregate"/>
-<fullyQualifiedTypeName name="iteratorPattern.blackBoxAndInnerIterator.Iterator"/>
-<fullyQualifiedTypeName name="iteratorPattern.blackBoxAndInnerIterator.Client"/>
-<fullyQualifiedTypeName name="mediatorPattern.directConnect.ColleageA"/>
-<fullyQualifiedTypeName name="mediatorPattern.directConnect.AbstractColleage"/>
-<fullyQualifiedTypeName name="mediatorPattern.directConnect.ColleagueB"/>
-<fullyQualifiedTypeName name="mediatorPattern.mediatorConnect.ColleagueA"/>
-<fullyQualifiedTypeName name="mediatorPattern.mediatorConnect.AbstractColleague"/>
-<fullyQualifiedTypeName name="mediatorPattern.mediatorConnect.ColleagueB"/>
-<fullyQualifiedTypeName name="mediatorPattern.mediatorConnect.Abstractmediator"/>
 <fullyQualifiedTypeName name="mediatorPattern.mediatorConnect.Mediator"/>
 <fullyQualifiedTypeName name="mementoPattern.whiteBoxImpl.Originator"/>
 <fullyQualifiedTypeName name="mementoPattern.whiteBoxImpl.Caretaker"/>
@@ -30,8 +19,6 @@
 <fullyQualifiedTypeName name="observerPattern.ConcreteObserver"/>
 <fullyQualifiedTypeName name="observerPattern.ConcreteSubject"/>
 <fullyQualifiedTypeName name="observerPattern.Subject"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="observerPattern.pullModel.Observer"/>
 <fullyQualifiedTypeName name="observerPattern.pullModel.Subject"/>
 <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
@@ -60,4 +47,17 @@
 <fullyQualifiedTypeName name="visitorPattern.Mozi"/>
 <fullyQualifiedTypeName name="visitorPattern.Horse"/>
 <fullyQualifiedTypeName name="visitorPattern.BlackHorse"/>
+<fullyQualifiedTypeName name="visitorPattern.multiAllocate.East"/>
+<fullyQualifiedTypeName name="visitorPattern.multiAllocate.West"/>
+<fullyQualifiedTypeName name="visitorPattern.multiAllocate.SubWest1"/>
+<fullyQualifiedTypeName name="visitorPattern.multiAllocate.SubEast1"/>
+<fullyQualifiedTypeName name="visitorPattern.multiAllocate.SubWest2"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="visitorPattern.nodeVisitor.Node"/>
+<fullyQualifiedTypeName name="visitorPattern.nodeVisitor.ObjectStructure"/>
+<fullyQualifiedTypeName name="visitorPattern.nodeVisitor.NodeA"/>
+<fullyQualifiedTypeName name="visitorPattern.nodeVisitor.NodeB"/>
+<fullyQualifiedTypeName name="visitorPattern.nodeVisitor.Visitor"/>
+<fullyQualifiedTypeName name="visitorPattern.nodeVisitor.VisitorA"/>
 </qualifiedTypeNameHistroy>
